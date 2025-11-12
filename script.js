@@ -30,6 +30,4 @@ const darkColorsArr = [
   const btn = document.querySelector("#btn");
   console.log(btn)
   
-  btn.addEventListener('click', () => {
-    changeBackgroundColor()
-  });
+  btn.addEventListener('click', changeBackgroundColor);
