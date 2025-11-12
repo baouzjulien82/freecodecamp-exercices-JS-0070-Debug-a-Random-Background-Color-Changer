@@ -1,1 +1,1 @@
-<strong>JavaScript Debugging Techniques</strong> - freecodecamp-exercices-JS-0070-Debug-a-Random-Background-Color-Changer
+<strong>JavaScript Debugging Techniques</strong> - freecodecamp-exercices-JS-0070-Debug-a-Random-Background-Color-Changer - https://baouzjulien82.github.io/freecodecamp-exercices-JS-0070-Debug-a-Random-Background-Color-Changer/
