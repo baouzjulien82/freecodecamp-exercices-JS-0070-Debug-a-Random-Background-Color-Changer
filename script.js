@@ -12,22 +12,24 @@ const darkColorsArr = [
   ];
   
   function getRandomIndex() {
-    const randomIndex = darkColorsArr.length * Math.random();
+    const randomIndex = Math.floor(darkColorsArr.length * Math.random());
     return randomIndex;
   }
   console.log(getRandomIndex())
   
   const body = document.querySelector("body");
-  const bgHexCodeSpanElement = document.querySelector("bg-hex-code");
+  const bgHexCodeSpanElement = document.querySelector("#bg-hex-code");
   console.log(bgHexCodeSpanElement)
   
   function changeBackgroundColor() {
-    const color = darkColorsArr[getRandomIndex];
-  
+    const color = darkColorsArr[getRandomIndex()];
+    console.log(color);
     bgHexCodeSpanElement.innerText = color;
     body.style.backgroundColor = color;
   }
-  const btn = document.querySelector("#click-btn");
+  const btn = document.querySelector("#btn");
   console.log(btn)
   
-  btn.addEventListener("click", changeBackgroundColor());
+  btn.addEventListener('click', () => {
+    changeBackgroundColor()
+  });
